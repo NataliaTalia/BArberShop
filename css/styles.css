@@ -140,13 +140,30 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
+/*HERO*/
+
+.hero> .container {
+    display: flex;
+}
+
+.social-links {
+    width: 100px;
+}
 .hero-content {
     padding: 272px 526px 208px 100px;
+    background-color: var(--paragraph-color);
+    background-image:linear-gradient( rgba(25, 28, 38, 0.2),
+    rgba(25, 28, 38, 0.2)),
+    url(../img/background-img.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 
 .hero-title {
-    color: var(--header-color); /*change to white after bckgd-pic is set*/
+    color: var(--primary-white);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 72px;
@@ -241,6 +258,16 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /*SERVICES*/
 
+
+.services {
+    background-image: url(../img/bgd-img-prices.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .services-price {
     display: flex;
     justify-content: space-between;
@@ -265,7 +292,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 .services-title {
-    color: var(--header-color); /* Change to white after bckd is set*/
+    color: var(--primary-white);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 42px;
@@ -425,3 +452,21 @@ font-size: 11px;
 line-height: 1.4;
 
 }
+
+/*CONTACTS SECTION*/
+.contact {
+    background-color: var(--header-color);
+}
+.contact > .container {
+display: flex;
+
+}
+
+.contact-info {
+    background-image: url('../img/bgd-img-contacts.jpg');
+    opacity: 0.1;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+
