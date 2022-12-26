@@ -332,6 +332,35 @@
         <div class="container form-section">
           <div class="form">
         <h2 class="contact-title">Online-booking</h2>
+
+        <form name="form for booking" class="booking-form">
+          <div class="booking-form-group">
+          <label class="booking-label label-required">
+            
+            <input type="text" class="booking-input" name="username" required placeholder=" ">
+
+            <span class="booking-text">name*</span> 
+          </label>
+
+          <label class="booking-label label-required">
+            
+            <input class="booking-input" type="tel" name="userphone" required placeholder=" ">
+
+            <span class="booking-text">phone*</span> 
+          </label>
+        </div>
+
+        <div class="booking-form-message">
+          <label class="booking-label">
+            <textarea name="message" class="booking-textarea" placeholder=" ">
+            </textarea>
+
+          
+            <span class="booking-text">message</span>
+          </label>
+          </div>
+          <button class="booking-button btn" type="submit">Send</button>
+        </form>
       </div>
 
       <div class="contact-info">
@@ -374,11 +403,13 @@
     </main>
 
     <footer>
+      <div class="container footer-container">
       <p class="footer-text">&copy;Copyright 2020</p>
-      <ul>
+      <ul class="socials-footer">
         <li><a class="footer-link" href="" target="_blank" rel="noopener nofollow noreferrer">Instagram</a></li>
         <li><a class="footer-link" href="" target="_blank" rel="noopener nofollow noreferrer">Youtube</a></li>
       </ul>
+    </div>
     </footer>
   </body>
 </html>
